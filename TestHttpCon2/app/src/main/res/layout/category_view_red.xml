@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/category_img">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/category_view_red_bg"
+            android:paddingLeft="20dp"
+            android:gravity="center">
+
+        <TextView
+                android:id="@+id/recipe_label"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Category Name"
+                android:textColor="@color/nav_font"
+                android:fontFamily="@font/opensans_semibolditalic"
+                android:textSize="25sp"
+                android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
